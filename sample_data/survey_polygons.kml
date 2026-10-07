@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Survey Land Parcels</name>
+    <Placemark>
+      <name>Parcel Alpha</name>
+      <description>Agricultural land plot in Central District</description>
+      <ExtendedData>
+        <Data name="owner"><value>Acme Agriculture</value></Data>
+        <Data name="zone_type"><value>Commercial-Agri</value></Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.5900,12.9700,0
+              77.5950,12.9700,0
+              77.5950,12.9750,0
+              77.5900,12.9750,0
+              77.5900,12.9700,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Parcel Beta</name>
+      <description>Industrial site parcel</description>
+      <ExtendedData>
+        <Data name="owner"><value>Tech Park Ltd</value></Data>
+        <Data name="zone_type"><value>Industrial</value></Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.6000,12.9800,0
+              77.6080,12.9800,0
+              77.6080,12.9860,0
+              77.6000,12.9860,0
+              77.6000,12.9800,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

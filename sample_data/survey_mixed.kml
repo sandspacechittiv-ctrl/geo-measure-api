@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mixed Geospatial Survey</name>
+    
+    <!-- Polygon Feature -->
+    <Placemark>
+      <name>Zone A Polygon</name>
+      <description>Protected Forest Reserve</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              13.4000,52.5200,0
+              13.4100,52.5200,0
+              13.4100,52.5250,0
+              13.4000,52.5250,0
+              13.4000,52.5200,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- LineString Feature -->
+    <Placemark>
+      <name>Main Corridor Pipeline</name>
+      <description>Water supply transmission line</description>
+      <LineString>
+        <coordinates>
+          13.4000,52.5200,0
+          13.4050,52.5230,0
+          13.4120,52.5270,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- Point Feature -->
+    <Placemark>
+      <name>Monitoring Sensor #101</name>
+      <description>Hydrological sensor station</description>
+      <Point>
+        <coordinates>13.4050,52.5225,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
